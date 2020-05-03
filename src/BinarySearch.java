@@ -5,7 +5,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         int arr[] = { 2, 3, 4, 10, 40 };
         System.out.println(binarySearch(arr, 0, arr.length -1, 30));
-        Arrays.binarySearch(arr, 10);
+        binarySearch(arr, 10);
     }
 
     private static int binarySearch(int[] nums, int left, int right, int elementToFind) {

@@ -35,5 +35,20 @@ public class PriorityQueueExample {
         for (int i = 0; i < objects.length; i++) {
             System.out.println(objects[i]);
         }
+
+        PriorityQueue<Integer> minHeap = new PriorityQueue();
+        minHeap.add(7);
+        minHeap.add(6);
+        minHeap.add(5);
+        minHeap.add(4);
+        minHeap.add(3);
+        minHeap.add(2);
+        minHeap.add(1);
+
+        Object[] nums = minHeap.toArray();
+
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+        }
     }
 }
