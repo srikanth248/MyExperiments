@@ -10,12 +10,13 @@ public class LIS_Recursive {
     static int lis(int arr[], int n)
     {
         // The max variable holds the result
-        max_ref = 1;
+        //max_ref = 1;
 
         // The function _lis() stores its result in max
-        _lis( arr, n);
+        //_lis( arr, n);
 
         // returns max
-        return max_ref;
+        //return max_ref;
+        return 0;
     }
 }
